@@ -1,0 +1,1385 @@
+﻿Log file open, 07/07/22 19:23:25
+LogInit: LLM is enabled
+LogInit: LLM CsvWriter: off TraceWriter: off
+LogPakFile: Display: Found Pak file ../../../TopDownShooter/Content/Paks/TopDownShooter-WindowsNoEditor.pak attempting to mount.
+LogPakFile: Display: Mounting pak file ../../../TopDownShooter/Content/Paks/TopDownShooter-WindowsNoEditor.pak.
+LogPakFile: PakFile PrimaryIndexSize=18570
+LogPakFile: PakFile PathHashIndexSize=41361
+LogPakFile: PakFile FullDirectoryIndexSize=49791
+LogPakFile: OnPakFileMounted2Time == 0.000013
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.170178
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +5:30, Platform Override: ''
+LogPluginManager: Mounting plugin CovidShooter
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogLuminAPIImpl: Warning: MLSDK not found.  This likely means the MLSDK environment variable is not set.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.26-CL-15973114
+LogInit: Engine Version: 4.26.2-15973114+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+LogInit: Net CL: 14830424
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz, GPU: Intel(R) UHD Graphics
+LogInit: Compiled (64-bit): Apr 12 2021 06:23:15
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Unreal Engine/TopDownShooter/ExportGame/WindowsNoEditor/TopDownShooter/Binaries/Win64/
+LogInit: Allocator: binned2
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 44
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 43
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 40
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 2097152 objects, including 1 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [../../../TopDownShooter/Saved/Config/WindowsNoEditor/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogStreaming: Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: false, Async Post Load: true
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+[2022.07.07-13.53.25:947][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2022.07.07-13.53.25:947][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2022.07.07-13.53.25:947][  0]LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+[2022.07.07-13.53.25:948][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [../../../TopDownShooter/Saved/Config/WindowsNoEditor/Engine.ini]
+[2022.07.07-13.53.25:948][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.07.07-13.53.25:948][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [../../../TopDownShooter/Saved/Config/WindowsNoEditor/Engine.ini]
+[2022.07.07-13.53.25:948][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [../../../TopDownShooter/Saved/Config/WindowsNoEditor/Engine.ini]
+[2022.07.07-13.53.25:948][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.07.07-13.53.25:948][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.07.07-13.53.25:948][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.07.07-13.53.25:948][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.07.07-13.53.25:948][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.07.07-13.53.25:948][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.07.07-13.53.25:948][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.07.07-13.53.25:948][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.07.07-13.53.25:948][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.07.07-13.53.25:948][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.07.07-13.53.25:948][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.07.07-13.53.25:948][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.07.07-13.53.25:948][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.07.07-13.53.25:948][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2022.07.07-13.53.25:948][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [../../../TopDownShooter/Saved/Config/WindowsNoEditor/Engine.ini]
+[2022.07.07-13.53.25:948][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.07.07-13.53.25:948][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.07.07-13.53.25:948][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.07.07-13.53.25:948][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.07.07-13.53.25:948][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.07.07-13.53.25:948][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.07.07-13.53.25:948][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2022.07.07-13.53.25:948][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.07.07-13.53.25:948][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.07.07-13.53.25:948][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.07.07-13.53.25:948][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.07.07-13.53.25:948][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.07.07-13.53.25:948][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.07.07-13.53.25:948][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2022.07.07-13.53.25:948][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [../../../TopDownShooter/Saved/Config/WindowsNoEditor/Engine.ini]
+[2022.07.07-13.53.25:975][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../TopDownShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.07.07-13.53.25:975][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../TopDownShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.07.07-13.53.25:975][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../TopDownShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.07.07-13.53.25:975][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../TopDownShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.07.07-13.53.25:975][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../TopDownShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../TopDownShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../TopDownShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [../../../TopDownShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2022.07.07-13.53.25:976][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2022.07.07-13.53.25:976][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2022.07.07-13.53.25:976][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2022.07.07-13.53.25:976][  0]LogHAL: Display: Platform has ~ 8 GB [8451309568 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.07.07-13.53.25:976][  0]LogInit: Going up to parent DeviceProfile [Windows]
+[2022.07.07-13.53.25:976][  0]LogInit: Going up to parent DeviceProfile []
+[2022.07.07-13.53.25:977][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../TopDownShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../TopDownShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../TopDownShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../TopDownShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../TopDownShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../TopDownShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../TopDownShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [../../../TopDownShooter/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2022.07.07-13.53.25:977][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [../../../TopDownShooter/Saved/Config/WindowsNoEditor/Engine.ini]
+[2022.07.07-13.53.25:978][  0]LogInit: Computer: LAPTOP-H4T4MDIS
+[2022.07.07-13.53.25:978][  0]LogInit: User: rahul
+[2022.07.07-13.53.25:978][  0]LogInit: CPU Page size=4096, Cores=4
+[2022.07.07-13.53.25:978][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.07.07-13.53.25:978][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2022.07.07-13.53.25:978][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2022.07.07-13.53.25:978][  0]LogMemory: Process Physical Memory: 72.15 MB used, 72.15 MB peak
+[2022.07.07-13.53.25:978][  0]LogMemory: Process Virtual Memory: 74.21 MB used, 74.21 MB peak
+[2022.07.07-13.53.25:978][  0]LogMemory: Physical Memory: 5713.24 MB used,  2346.56 MB free, 8059.80 MB total
+[2022.07.07-13.53.25:978][  0]LogMemory: Virtual Memory: 134206640.00 MB used,  11088.75 MB free, 134217728.00 MB total
+[2022.07.07-13.53.25:981][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.07.07-13.53.26:170][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.07.07-13.53.26:170][  0]LogInit: Using OS detected language (en-US).
+[2022.07.07-13.53.26:170][  0]LogInit: Using OS detected locale (en-IN).
+[2022.07.07-13.53.26:170][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2022.07.07-13.53.26:183][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.07.07-13.53.26:199][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.07.07-13.53.26:199][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.07.07-13.53.26:273][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.07.07-13.53.26:273][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2022.07.07-13.53.26:273][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2022.07.07-13.53.26:273][  0]LogD3D11RHI: D3D11 adapters:
+[2022.07.07-13.53.26:446][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1650' (Feature Level 11_0)
+[2022.07.07-13.53.26:446][  0]LogD3D11RHI:       3962/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2022.07.07-13.53.26:524][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics' (Feature Level 11_0)
+[2022.07.07-13.53.26:524][  0]LogD3D11RHI:       128/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2022.07.07-13.53.26:532][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.07.07-13.53.26:532][  0]LogD3D11RHI:       0/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.07.07-13.53.26:532][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.07.07-13.53.26:537][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.07.07-13.53.26:537][  0]LogD3D11RHI:     GPU DeviceId: 0x1f99 (for the marketing name, search the web for "GPU Device Id")
+[2022.07.07-13.53.26:537][  0]LogWindows: EnumDisplayDevices:
+[2022.07.07-13.53.26:576][  0]LogWindows:    0. 'Intel(R) UHD Graphics' (P:1 D:1)
+[2022.07.07-13.53.26:577][  0]LogWindows:    1. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2022.07.07-13.53.26:578][  0]LogWindows:    2. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2022.07.07-13.53.26:579][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1650' (P:0 D:0)
+[2022.07.07-13.53.26:579][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2022.07.07-13.53.26:579][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1650
+[2022.07.07-13.53.26:579][  0]LogD3D11RHI:   Driver Version: 462.30 (internal:27.21.14.6230, unified:462.30)
+[2022.07.07-13.53.26:579][  0]LogD3D11RHI:      Driver Date: 4-5-2021
+[2022.07.07-13.53.26:579][  0]LogRHI: Texture pool is 2773 MB (70% of 3962 MB)
+[2022.07.07-13.53.26:646][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2022.07.07-13.53.26:646][  0]LogD3D11RHI: Async texture creation enabled
+[2022.07.07-13.53.26:646][  0]LogD3D11RHI: Array index from any shader is supported
+[2022.07.07-13.53.26:698][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2022.07.07-13.53.26:721][  0]LogRHI: GeForceNow SDK initialized: 1
+[2022.07.07-13.53.26:721][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2022.07.07-13.53.26:725][  0]LogShaderLibrary: Display: Using ../../../TopDownShooter/Content/ShaderArchive-Global-PCD3D_SM5.ushaderbytecode for material shader code. Total 2081 unique shaders.
+[2022.07.07-13.53.26:725][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library Global
+[2022.07.07-13.53.26:726][  0]LogTemp: Warning: Clearing the OS Cache
+[2022.07.07-13.53.26:733][  0]LogPakFile: New pak file ../../../TopDownShooter/Content/Paks/TopDownShooter-WindowsNoEditor.pak added to pak precacher.
+[2022.07.07-13.53.26:756][  0]LogSlate: Using FreeType 2.10.0
+[2022.07.07-13.53.26:760][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.07.07-13.53.26:872][  0]LogShaderLibrary: Display: Using ../../../TopDownShooter/Content/ShaderArchive-TopDownShooter-PCD3D_SM5.ushaderbytecode for material shader code. Total 1359 unique shaders.
+[2022.07.07-13.53.26:872][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library TopDownShooter
+[2022.07.07-13.53.26:872][  0]LogRHI: Display: Opened pipeline cache after state change and enqueued 0 of 0 tasks for precompile.
+[2022.07.07-13.53.26:872][  0]LogRHI: Display: Failed to open default shader pipeline cache for TopDownShooter using shader platform 0.
+[2022.07.07-13.53.26:872][  0]LogInit: Using OS detected language (en-US).
+[2022.07.07-13.53.26:872][  0]LogInit: Using OS detected locale (en-IN).
+[2022.07.07-13.53.26:872][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2022.07.07-13.53.26:873][  0]LogTextLocalizationManager: No localization for 'en-IN' exists, so 'en' will be used for the locale.
+[2022.07.07-13.53.26:873][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2022.07.07-13.53.26:873][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2022.07.07-13.53.26:874][  0]LogTextLocalizationManager: Compacting localization data took   1.01ms
+[2022.07.07-13.53.26:879][  0]LogAssetRegistry: FAssetRegistry took 0.0039 seconds to start up
+[2022.07.07-13.53.26:971][  0]LogStreaming: Display: FlushAsyncLoading: 1 QueuedPackages, 0 AsyncPackages
+[2022.07.07-13.53.26:972][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 0.000419 seconds
+[2022.07.07-13.53.26:978][  0]LogSerialization: Display: AllowBulkDataInIoStore: 'true'
+[2022.07.07-13.53.26:979][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2022.07.07-13.53.26:979][  0]LogInit: Active device profile: [0000024FEAFD1C00][0000024FE67F0010 49] WindowsNoEditor
+[2022.07.07-13.53.26:979][  0]LogInit: Profiles: [0000024FEAFD1B40][0000024FE67F13C0 49] Windows, [0000024FEAFD1C00][0000024FE67F0010 49] WindowsNoEditor, 
+[2022.07.07-13.53.27:003][  0]LogNetVersion: TopDownShooter 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 1164137893)
+[2022.07.07-13.53.27:073][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.07.07-13.53.27:073][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.07.07-13.53.27:074][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2022.07.07-13.53.27:128][  0]LogMoviePlayer: Initializing movie player
+[2022.07.07-13.53.27:133][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.07.07-13.53.27:133][  0]LogOcInput: OculusInput pre-init called
+[2022.07.07-13.53.27:137][  0]LogUObjectArray: 15271 objects as part of root set at end of initial load.
+[2022.07.07-13.53.27:137][  0]LogUObjectArray: 2 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
+[2022.07.07-13.53.27:137][  0]LogUObjectAllocator: 3123560 out of 0 bytes used by permanent object pool.
+[2022.07.07-13.53.27:137][  0]LogUObjectArray: CloseDisregardForGC: 15271/15271 objects in disregard for GC pool
+[2022.07.07-13.53.27:139][  0]LogEngine: Initializing Engine...
+[2022.07.07-13.53.27:139][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.07.07-13.53.27:140][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.07.07-13.53.27:234][  0]LogPakFile: Precache HighWater 16MB
+
+[2022.07.07-13.53.27:234][  0]LogPakFile: Precache HighWater 32MB
+
+[2022.07.07-13.53.27:234][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.07.07-13.53.27:235][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2022.07.07-13.53.27:235][  0]LogAudio: Display: Audio Device Manager Initialized
+[2022.07.07-13.53.27:235][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2022.07.07-13.53.27:235][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.07-13.53.27:235][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.07-13.53.27:235][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.07.07-13.53.27:235][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.07.07-13.53.27:235][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.07.07-13.53.27:235][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.07.07-13.53.27:235][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.07-13.53.27:235][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.07-13.53.27:237][  0]LogAudio: Display: Using built-in audio occlusion.
+[2022.07.07-13.53.27:237][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2022.07.07-13.53.27:318][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.07.07-13.53.27:408][  0]LogAudioMixer: Display: 0: FrontLeft
+[2022.07.07-13.53.27:408][  0]LogAudioMixer: Display: 1: FrontRight
+[2022.07.07-13.53.27:529][  0]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2022.07.07-13.53.27:530][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.07-13.53.27:531][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.07-13.53.27:531][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.07-13.53.27:533][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.07.07-13.53.27:533][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.07.07-13.53.27:533][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.07.07-13.53.27:533][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.07.07-13.53.27:533][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.07.07-13.53.27:533][  0]LogInit: FAudioDevice initialized.
+[2022.07.07-13.53.27:535][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.07.07-13.53.27:535][  0]LogInit: Texture streaming: Enabled
+[2022.07.07-13.53.27:561][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2022.07.07-13.53.27:563][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.07-13.53.27:564][  0]LogInit: Display: Game Engine Initialized.
+[2022.07.07-13.53.27:565][  0]LogInit: Display: Starting Game.
+[2022.07.07-13.53.27:566][  0]LogNet: Browse: /Game/Maps/Level01?Name=Player
+[2022.07.07-13.53.27:566][  0]LogLoad: LoadMap: /Game/Maps/Level01?Name=Player
+[2022.07.07-13.53.27:566][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2022.07.07-13.53.27:569][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.07.07-13.53.27:571][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.07-13.53.27:577][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.07.07-13.53.27:580][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.07.07-13.53.27:603][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level01'.
+[2022.07.07-13.53.27:605][  0]LogAIModule: Creating AISystem for world Level01
+[2022.07.07-13.53.27:606][  0]LogLoad: Game class is 'TopDownShooterGameModeBase_BP_C'
+[2022.07.07-13.53.27:612][  0]LogWorld: Bringing World /Game/Maps/Level01.Level01 up for play (max tick rate 0) at 2022.07.07-19.23.27
+[2022.07.07-13.53.27:613][  0]LogWorld: Bringing up level for play took: 0.004738
+[2022.07.07-13.53.27:617][  0]LogActor: Warning: ShooterPlayer_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayer_BP_C_2147482460 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.27:624][  0]LogLoad: Took 0.057911 seconds to LoadMap(/Game/Maps/Level01)
+[2022.07.07-13.53.27:630][  0]LogSlate: Took 0.000685 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoBold.ufont' (160K)
+[2022.07.07-13.53.27:663][  0]LogRenderer: Reallocating scene render targets to support 1536x864 Format 10 NumSamples 1 (Frame:1).
+[2022.07.07-13.53.27:663][  0]LogRHI: Display: ShaderPipelineCache: Paused Batching. 1
+[2022.07.07-13.53.27:663][  0]LogPakFile: AllPaks IndexSizes: DirectoryHashSize=182220, PathHashSize=16, EntriesSize=21840, TotalSize=204076
+[2022.07.07-13.53.27:663][  0]LogRHI: Display: ShaderPipelineCache: Resumed Batching. 0
+[2022.07.07-13.53.27:663][  0]LogRHI: Display: ShaderPipelineCache: Batching Resumed.
+[2022.07.07-13.53.27:663][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2022.07.07-13.53.27:663][  0]LogLoad: (Engine Initialization) Total time: 2.32 seconds
+[2022.07.07-13.53.27:663][  0]LogInit: First time updating LLM stats...
+[2022.07.07-13.53.27:708][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.07.07-13.53.27:714][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.07-13.53.28:048][  0]LogSlate: Slate font cache was flushed
+[2022.07.07-13.53.28:053][  1]LogSlate: Took 0.000106 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoBold.ufont' (160K)
+[2022.07.07-13.53.31:078][492]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482456 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.31:090][492]LogTemp: Warning: The vector value is: X=72.791 Y=-68.567 Z=112.001
+[2022.07.07-13.53.31:977][622]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482456]  Im Hit
+[2022.07.07-13.53.31:990][622]LogSlate: Took 0.001398 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.07.07-13.53.32:027][629]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482454 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.32:027][629]LogTemp: Warning: The vector value is: X=-563.314 Y=11.259 Z=112.001
+[2022.07.07-13.53.32:279][666]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482452 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.32:279][666]LogTemp: Warning: The vector value is: X=-1297.939 Y=42.827 Z=112.001
+[2022.07.07-13.53.32:475][696]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482452]  Im Hit
+[2022.07.07-13.53.32:862][750]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482450 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.32:862][750]LogTemp: Warning: The vector value is: X=-1307.760 Y=37.873 Z=112.001
+[2022.07.07-13.53.33:044][775]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482450]  Im Hit
+[2022.07.07-13.53.33:306][812]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482448 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.33:306][812]LogTemp: Warning: The vector value is: X=-1905.113 Y=44.358 Z=112.001
+[2022.07.07-13.53.33:516][842]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482448]  Im Hit
+[2022.07.07-13.53.33:524][843]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482446 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.33:524][843]LogTemp: Warning: The vector value is: X=-1979.219 Y=391.337 Z=112.001
+[2022.07.07-13.53.34:129][926]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482444 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.34:129][926]LogTemp: Warning: The vector value is: X=-2002.110 Y=543.268 Z=112.001
+[2022.07.07-13.53.34:242][938]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482446]  Im Hit
+[2022.07.07-13.53.34:407][953]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482444]  Im Hit
+[2022.07.07-13.53.34:439][956]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482442 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.34:440][956]LogTemp: Warning: The vector value is: X=-2016.774 Y=1103.348 Z=112.001
+[2022.07.07-13.53.34:688][982]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482440 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.34:689][982]LogTemp: Warning: The vector value is: X=-2028.232 Y=1182.974 Z=112.001
+[2022.07.07-13.53.35:036][ 19]LogTemp: Warning: I Should be Dead
+[2022.07.07-13.53.35:036][ 19]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482440]  Im Hit
+[2022.07.07-13.53.35:142][ 34]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482442]  Im Hit
+[2022.07.07-13.53.35:419][ 73]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482438 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.35:419][ 73]LogTemp: Warning: The vector value is: X=-2353.553 Y=1932.696 Z=112.001
+[2022.07.07-13.53.35:582][ 97]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482438]  Im Hit
+[2022.07.07-13.53.35:742][120]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482436 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.35:742][120]LogTemp: Warning: The vector value is: X=-2415.570 Y=2469.331 Z=112.001
+[2022.07.07-13.53.35:947][150]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482436]  Im Hit
+[2022.07.07-13.53.36:291][201]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482434 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.36:292][201]LogTemp: Warning: The vector value is: X=-2896.751 Y=2453.757 Z=112.001
+[2022.07.07-13.53.36:650][254]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482432 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.36:650][254]LogTemp: Warning: The vector value is: X=-3057.204 Y=2449.208 Z=112.001
+[2022.07.07-13.53.36:765][270]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482432]  Im Hit
+[2022.07.07-13.53.36:937][296]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482434]  Im Hit
+[2022.07.07-13.53.37:055][313]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482430 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.37:055][313]LogTemp: Warning: The vector value is: X=-3612.163 Y=2452.826 Z=112.001
+[2022.07.07-13.53.37:277][345]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482428 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.37:277][345]LogTemp: Warning: The vector value is: X=-3160.547 Y=2465.457 Z=112.001
+[2022.07.07-13.53.37:369][358]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482428]  Im Hit
+[2022.07.07-13.53.37:376][359]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482430]  Im Hit
+[2022.07.07-13.53.37:472][373]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482426 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.37:472][373]LogTemp: Warning: The vector value is: X=-3114.214 Y=2467.837 Z=112.001
+[2022.07.07-13.53.37:548][384]LogTemp: Warning: I Should be Dead
+[2022.07.07-13.53.37:548][384]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482426]  Im Hit
+[2022.07.07-13.53.37:626][396]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482424 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.37:626][396]LogTemp: Warning: The vector value is: X=-3112.410 Y=2467.606 Z=112.001
+[2022.07.07-13.53.37:977][449]LogTemp: Warning: I Should be Dead
+[2022.07.07-13.53.37:978][449]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482424]  Im Hit
+[2022.07.07-13.53.39:048][599]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482422 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.39:048][599]LogTemp: Warning: The vector value is: X=-4312.299 Y=3397.654 Z=112.001
+[2022.07.07-13.53.39:764][692]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482420 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.39:764][692]LogTemp: Warning: The vector value is: X=-3736.754 Y=3646.876 Z=112.001
+[2022.07.07-13.53.39:907][713]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482420]  Im Hit
+[2022.07.07-13.53.40:101][741]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482418 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.40:101][741]LogTemp: Warning: The vector value is: X=-3735.686 Y=3592.505 Z=112.001
+[2022.07.07-13.53.40:201][756]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482418]  Im Hit
+[2022.07.07-13.53.40:287][769]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482416 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.40:287][769]LogTemp: Warning: The vector value is: X=-3735.651 Y=3592.397 Z=112.001
+[2022.07.07-13.53.40:397][785]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482416]  Im Hit
+[2022.07.07-13.53.40:808][845]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482414 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.40:808][845]LogTemp: Warning: The vector value is: X=-4568.396 Y=3588.473 Z=112.001
+[2022.07.07-13.53.41:206][906]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482414]  Im Hit
+[2022.07.07-13.53.41:317][923]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482412 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.41:317][923]LogTemp: Warning: The vector value is: X=-4635.009 Y=3596.533 Z=112.001
+[2022.07.07-13.53.41:687][978]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482410 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.41:688][978]LogTemp: Warning: The vector value is: X=-4204.110 Y=3603.579 Z=112.001
+[2022.07.07-13.53.41:900][ 10]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482408 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.41:900][ 10]LogTemp: Warning: The vector value is: X=-4192.894 Y=3598.479 Z=112.001
+[2022.07.07-13.53.41:972][ 21]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482408]  Im Hit
+[2022.07.07-13.53.42:079][ 37]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482406 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.42:079][ 37]LogTemp: Warning: The vector value is: X=-4192.628 Y=3598.197 Z=112.001
+[2022.07.07-13.53.42:151][ 48]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482406]  Im Hit
+[2022.07.07-13.53.42:256][ 64]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482404 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.42:256][ 64]LogTemp: Warning: The vector value is: X=-4192.593 Y=3598.198 Z=112.001
+[2022.07.07-13.53.42:320][ 74]LogTemp: Warning: I Should be Dead
+[2022.07.07-13.53.42:320][ 74]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482404]  Im Hit
+[2022.07.07-13.53.42:385][ 84]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482402 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.42:386][ 84]LogTemp: Warning: The vector value is: X=-4192.899 Y=3597.897 Z=112.001
+[2022.07.07-13.53.42:516][104]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482410]  Im Hit
+[2022.07.07-13.53.43:107][192]LogTemp: Warning: I Should be Dead
+[2022.07.07-13.53.43:107][192]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482402]  Im Hit
+[2022.07.07-13.53.43:558][257]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482400 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.43:558][257]LogTemp: Warning: The vector value is: X=-3793.094 Y=2819.210 Z=112.001
+[2022.07.07-13.53.43:773][288]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482398 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.43:773][288]LogTemp: Warning: The vector value is: X=-3796.194 Y=2744.689 Z=112.001
+[2022.07.07-13.53.44:066][328]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482396 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.44:067][328]LogTemp: Warning: The vector value is: X=-3795.813 Y=2192.204 Z=112.001
+[2022.07.07-13.53.44:119][336]LogTemp: Warning: I Should be Dead
+[2022.07.07-13.53.44:119][336]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482396]  Im Hit
+[2022.07.07-13.53.44:213][349]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482400]  Im Hit
+[2022.07.07-13.53.44:258][355]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482394 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.44:258][355]LogTemp: Warning: The vector value is: X=-4147.420 Y=2175.149 Z=112.001
+[2022.07.07-13.53.44:405][376]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482398]  Im Hit
+[2022.07.07-13.53.44:527][394]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482392 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.44:528][394]LogTemp: Warning: The vector value is: X=-4421.952 Y=2177.538 Z=112.001
+[2022.07.07-13.53.44:735][425]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482394]  Im Hit
+[2022.07.07-13.53.45:023][467]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482392]  Im Hit
+[2022.07.07-13.53.45:410][524]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482390 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.45:411][524]LogTemp: Warning: The vector value is: X=-3587.835 Y=3026.033 Z=112.001
+[2022.07.07-13.53.45:438][528]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482390]  Im Hit
+[2022.07.07-13.53.45:755][574]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482388 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.45:755][574]LogTemp: Warning: The vector value is: X=-3795.572 Y=3041.044 Z=112.001
+[2022.07.07-13.53.45:807][582]LogTemp: Warning: I Should be Dead
+[2022.07.07-13.53.45:807][582]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482388]  Im Hit
+[2022.07.07-13.53.45:935][601]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482386 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.45:935][601]LogTemp: Warning: The vector value is: X=-4306.988 Y=3040.925 Z=112.001
+[2022.07.07-13.53.46:469][681]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482386]  Im Hit
+[2022.07.07-13.53.46:593][699]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482384 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.46:593][699]LogTemp: Warning: The vector value is: X=-4489.093 Y=2376.945 Z=112.001
+[2022.07.07-13.53.47:033][763]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482382 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.47:033][763]LogTemp: Warning: The vector value is: X=-4826.780 Y=2052.047 Z=112.001
+[2022.07.07-13.53.47:118][775]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482382]  Im Hit
+[2022.07.07-13.53.47:148][779]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482384]  Im Hit
+[2022.07.07-13.53.47:424][817]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482380 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.47:424][817]LogTemp: Warning: The vector value is: X=-5019.418 Y=2048.920 Z=112.001
+[2022.07.07-13.53.47:583][839]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482378 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.47:583][839]LogTemp: Warning: The vector value is: X=-5018.547 Y=2049.543 Z=112.001
+[2022.07.07-13.53.47:780][867]LogTemp: Warning: I Should be Dead
+[2022.07.07-13.53.47:781][867]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482380]  Im Hit
+[2022.07.07-13.53.47:869][880]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482376 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.47:870][880]LogTemp: Warning: The vector value is: X=-5006.105 Y=2057.186 Z=112.001
+[2022.07.07-13.53.47:957][893]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482376]  Im Hit
+[2022.07.07-13.53.48:067][909]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482374 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.48:067][909]LogTemp: Warning: The vector value is: X=-5006.233 Y=2057.094 Z=112.001
+[2022.07.07-13.53.48:157][922]LogTemp: Warning: I Should be Dead
+[2022.07.07-13.53.48:157][922]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482374]  Im Hit
+[2022.07.07-13.53.48:210][930]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482372 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.48:211][930]LogTemp: Warning: The vector value is: X=-5005.757 Y=2057.437 Z=112.001
+[2022.07.07-13.53.48:755][ 11]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482372]  Im Hit
+[2022.07.07-13.53.49:260][ 85]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482370 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.49:260][ 85]LogTemp: Warning: The vector value is: X=-3957.864 Y=3012.614 Z=112.001
+[2022.07.07-13.53.49:453][114]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482368 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.49:454][114]LogTemp: Warning: The vector value is: X=-3961.189 Y=3008.405 Z=112.001
+[2022.07.07-13.53.49:641][142]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482366 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.49:641][142]LogTemp: Warning: The vector value is: X=-3966.825 Y=3004.722 Z=112.001
+[2022.07.07-13.53.49:653][144]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482368]  Im Hit
+[2022.07.07-13.53.49:771][161]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482364 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.49:771][161]LogTemp: Warning: The vector value is: X=-4040.889 Y=3005.432 Z=112.001
+[2022.07.07-13.53.49:777][162]LogTemp: Warning: I Should be Dead
+[2022.07.07-13.53.49:777][162]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482370]  Im Hit
+[2022.07.07-13.53.49:784][163]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482366]  Im Hit
+[2022.07.07-13.53.49:912][182]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482364]  Im Hit
+[2022.07.07-13.53.49:926][184]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482362 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.49:926][184]LogTemp: Warning: The vector value is: X=-4299.405 Y=3005.122 Z=112.001
+[2022.07.07-13.53.50:422][258]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482360 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.50:422][258]LogTemp: Warning: The vector value is: X=-3982.961 Y=3006.829 Z=112.001
+[2022.07.07-13.53.50:556][278]LogTemp: Warning: I Should be Dead
+[2022.07.07-13.53.50:556][278]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482360]  Im Hit
+[2022.07.07-13.53.50:616][287]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482358 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.50:616][287]LogTemp: Warning: The vector value is: X=-3967.436 Y=3007.058 Z=112.001
+[2022.07.07-13.53.50:744][307]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482362]  Im Hit
+[2022.07.07-13.53.50:751][308]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482358]  Im Hit
+[2022.07.07-13.53.50:798][315]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482356 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.50:798][315]LogTemp: Warning: The vector value is: X=-3966.685 Y=3007.077 Z=112.001
+[2022.07.07-13.53.50:929][335]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482356]  Im Hit
+[2022.07.07-13.53.50:943][337]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482354 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.50:943][337]LogTemp: Warning: The vector value is: X=-3966.598 Y=3007.109 Z=112.001
+[2022.07.07-13.53.51:069][356]LogTemp: Warning: I Should be Dead
+[2022.07.07-13.53.51:070][356]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482354]  Im Hit
+[2022.07.07-13.53.51:114][364]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482352 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.51:115][364]LogTemp: Warning: The vector value is: X=-3966.992 Y=3006.849 Z=112.001
+[2022.07.07-13.53.51:288][391]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482352]  Im Hit
+[2022.07.07-13.53.51:795][468]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482350 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.51:795][468]LogTemp: Warning: The vector value is: X=-3948.455 Y=2066.036 Z=112.001
+[2022.07.07-13.53.52:464][568]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482348 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.52:464][568]LogTemp: Warning: The vector value is: X=-3922.431 Y=1677.291 Z=112.001
+[2022.07.07-13.53.52:560][582]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482350]  Im Hit
+[2022.07.07-13.53.52:561][582]LogTemp: Warning: I Should be Dead
+[2022.07.07-13.53.52:561][582]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482348]  Im Hit
+[2022.07.07-13.53.52:658][597]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482346 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.52:658][597]LogTemp: Warning: The vector value is: X=-3922.355 Y=1609.991 Z=112.001
+[2022.07.07-13.53.52:996][649]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482344 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.52:996][649]LogTemp: Warning: The vector value is: X=-3922.398 Y=1579.617 Z=112.001
+[2022.07.07-13.53.53:095][664]LogTemp: Warning: I Should be Dead
+[2022.07.07-13.53.53:095][664]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482344]  Im Hit
+[2022.07.07-13.53.53:183][678]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482342 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.53:183][678]LogTemp: Warning: The vector value is: X=-3922.382 Y=1579.724 Z=112.001
+[2022.07.07-13.53.53:629][748]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482346]  Im Hit
+[2022.07.07-13.53.53:669][754]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482342]  Im Hit
+[2022.07.07-13.53.54:196][833]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482340 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.54:196][833]LogTemp: Warning: The vector value is: X=-4886.506 Y=720.077 Z=112.001
+[2022.07.07-13.53.54:396][863]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482340]  Im Hit
+[2022.07.07-13.53.54:669][904]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482338 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.54:669][904]LogTemp: Warning: The vector value is: X=-4475.167 Y=725.581 Z=112.001
+[2022.07.07-13.53.55:047][961]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482336 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.55:048][961]LogTemp: Warning: The vector value is: X=-4450.991 Y=723.258 Z=112.001
+[2022.07.07-13.53.55:287][997]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482334 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.55:287][997]LogTemp: Warning: The vector value is: X=-4653.614 Y=724.281 Z=112.001
+[2022.07.07-13.53.55:373][ 10]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482334]  Im Hit
+[2022.07.07-13.53.55:414][ 16]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482336]  Im Hit
+[2022.07.07-13.53.55:620][ 47]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482332 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.55:620][ 47]LogTemp: Warning: The vector value is: X=-4867.300 Y=723.739 Z=112.001
+[2022.07.07-13.53.55:796][ 74]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482332]  Im Hit
+[2022.07.07-13.53.55:816][ 77]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482330 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.55:816][ 77]LogTemp: Warning: The vector value is: X=-4867.671 Y=724.000 Z=112.001
+[2022.07.07-13.53.55:987][104]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482330]  Im Hit
+[2022.07.07-13.53.56:434][174]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482328 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.56:434][174]LogTemp: Warning: The vector value is: X=-4857.759 Y=728.164 Z=112.001
+[2022.07.07-13.53.56:521][188]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482328]  Im Hit
+[2022.07.07-13.53.56:734][221]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482326 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.56:734][221]LogTemp: Warning: The vector value is: X=-4532.766 Y=726.861 Z=112.001
+[2022.07.07-13.53.57:013][262]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482324 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.57:013][262]LogTemp: Warning: The vector value is: X=-4461.102 Y=724.104 Z=112.001
+[2022.07.07-13.53.57:141][281]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482322 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.57:141][281]LogTemp: Warning: The vector value is: X=-4515.215 Y=724.530 Z=112.001
+[2022.07.07-13.53.57:223][293]LogTemp: Warning: I Should be Dead
+[2022.07.07-13.53.57:223][293]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482322]  Im Hit
+[2022.07.07-13.53.57:370][319]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482326]  Im Hit
+[2022.07.07-13.53.57:682][374]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482320 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.57:682][374]LogTemp: Warning: The vector value is: X=-4917.724 Y=708.842 Z=112.001
+[2022.07.07-13.53.57:835][400]LogTemp: Warning: I Should be Dead
+[2022.07.07-13.53.57:835][400]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482320]  Im Hit
+[2022.07.07-13.53.57:904][412]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482318 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.57:904][412]LogTemp: Warning: The vector value is: X=-4916.191 Y=180.935 Z=112.001
+[2022.07.07-13.53.58:018][430]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482318]  Im Hit
+[2022.07.07-13.53.58:226][463]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482316 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.53.58:226][463]LogTemp: Warning: The vector value is: X=-4916.507 Y=114.257 Z=112.001
+[2022.07.07-13.53.58:332][480]LogTemp: Warning: I Should be Dead
+[2022.07.07-13.53.58:332][480]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482316]  Im Hit
+[2022.07.07-13.53.59:850][734]LogBlueprintUserMessages: [ShooterEnemy_BP54] Collided with Player
+[2022.07.07-13.53.59:863][734]LogBlueprintUserMessages: [ShooterEnemy_BP54] Collided with Player
+[2022.07.07-13.53.59:863][734]LogBlueprintUserMessages: [ShooterEnemy_BP54] Collided with Player
+[2022.07.07-13.53.59:866][735]LogBlueprintUserMessages: [ShooterEnemy_BP54] Collided with Player
+[2022.07.07-13.54.09:621][468]LogNet: Browse: /Game/Maps/Level01?Name=Player?restart
+[2022.07.07-13.54.09:621][468]LogLoad: LoadMap: /Game/Maps/Level01?Name=Player
+[2022.07.07-13.54.09:621][468]LogWorld: BeginTearingDown for /Game/Maps/Level01
+[2022.07.07-13.54.09:622][468]LogWorld: UWorld::CleanupWorld for Level01, bSessionEnded=true, bCleanupResources=true
+[2022.07.07-13.54.09:623][468]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.07-13.54.09:656][468]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.07.07-13.54.09:660][468]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2022.07.07-13.54.09:663][468]LogStreaming: Display: FlushAsyncLoading: 1 QueuedPackages, 0 AsyncPackages
+[2022.07.07-13.54.09:674][468]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level01'.
+[2022.07.07-13.54.09:675][468]LogAIModule: Creating AISystem for world Level01
+[2022.07.07-13.54.09:675][468]LogLoad: Game class is 'TopDownShooterGameModeBase_BP_C'
+[2022.07.07-13.54.09:677][468]LogWorld: Bringing World /Game/Maps/Level01.Level01 up for play (max tick rate 0) at 2022.07.07-19.24.09
+[2022.07.07-13.54.09:677][468]LogWorld: Bringing up level for play took: 0.001344
+[2022.07.07-13.54.09:678][468]LogActor: Warning: ShooterPlayer_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayer_BP_C_2147482195 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.09:679][468]LogLoad: Took 0.058033 seconds to LoadMap(/Game/Maps/Level01)
+[2022.07.07-13.54.25:142][204]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482191 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.25:142][204]LogTemp: Warning: The vector value is: X=-1668.510 Y=232.535 Z=112.001
+[2022.07.07-13.54.26:406][396]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482189 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.26:406][396]LogTemp: Warning: The vector value is: X=-1759.995 Y=325.541 Z=112.001
+[2022.07.07-13.54.26:737][444]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482187 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.26:737][444]LogTemp: Warning: The vector value is: X=-1785.574 Y=242.257 Z=112.001
+[2022.07.07-13.54.27:062][490]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482185 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.27:062][490]LogTemp: Warning: The vector value is: X=-1444.250 Y=226.605 Z=112.001
+[2022.07.07-13.54.27:595][562]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482183 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.27:595][562]LogTemp: Warning: The vector value is: X=-800.031 Y=673.137 Z=112.001
+[2022.07.07-13.54.28:180][641]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482181 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.28:181][641]LogTemp: Warning: The vector value is: X=-1203.702 Y=958.860 Z=112.001
+[2022.07.07-13.54.28:655][707]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482179 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.28:655][707]LogTemp: Warning: The vector value is: X=-1785.286 Y=1089.509 Z=112.001
+[2022.07.07-13.54.28:918][743]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482179]  Im Hit
+[2022.07.07-13.54.29:095][768]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482181]  Im Hit
+[2022.07.07-13.54.29:395][810]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482177 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.29:395][810]LogTemp: Warning: The vector value is: X=-1804.068 Y=1225.517 Z=112.001
+[2022.07.07-13.54.29:627][843]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482177]  Im Hit
+[2022.07.07-13.54.29:868][878]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482175 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.29:869][878]LogTemp: Warning: The vector value is: X=-1832.051 Y=1104.710 Z=112.001
+[2022.07.07-13.54.30:314][940]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482173 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.30:314][940]LogTemp: Warning: The vector value is: X=-1799.474 Y=1017.954 Z=112.001
+[2022.07.07-13.54.30:805][  9]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482171 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.30:805][  9]LogTemp: Warning: The vector value is: X=-1788.447 Y=1312.347 Z=112.001
+[2022.07.07-13.54.30:959][ 30]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482171]  Im Hit
+[2022.07.07-13.54.31:290][ 75]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482169 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.31:290][ 75]LogTemp: Warning: The vector value is: X=-2192.952 Y=1278.018 Z=112.001
+[2022.07.07-13.54.31:415][ 92]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482169]  Im Hit
+[2022.07.07-13.54.31:693][130]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482167 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.31:693][130]LogTemp: Warning: The vector value is: X=-2764.726 Y=1267.083 Z=112.001
+[2022.07.07-13.54.32:233][203]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482165 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.32:233][203]LogTemp: Warning: The vector value is: X=-2270.011 Y=179.966 Z=112.001
+[2022.07.07-13.54.32:545][246]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482167]  Im Hit
+[2022.07.07-13.54.32:694][267]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482163 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.32:694][267]LogTemp: Warning: The vector value is: X=-2296.124 Y=524.673 Z=112.001
+[2022.07.07-13.54.33:446][368]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482161 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.33:447][368]LogTemp: Warning: The vector value is: X=-1192.223 Y=533.253 Z=112.001
+[2022.07.07-13.54.33:700][401]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482159 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.33:701][401]LogTemp: Warning: The vector value is: X=-926.422 Y=532.091 Z=112.001
+[2022.07.07-13.54.33:799][414]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482161]  Im Hit
+[2022.07.07-13.54.33:821][417]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482159]  Im Hit
+[2022.07.07-13.54.33:982][438]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482157 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.33:982][438]LogTemp: Warning: The vector value is: X=-921.116 Y=532.052 Z=112.001
+[2022.07.07-13.54.34:110][455]LogTemp: Warning: I Should be Dead
+[2022.07.07-13.54.34:110][455]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482157]  Im Hit
+[2022.07.07-13.54.34:272][476]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482155 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.34:272][476]LogTemp: Warning: The vector value is: X=-490.224 Y=533.445 Z=112.001
+[2022.07.07-13.54.34:385][491]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482155]  Im Hit
+[2022.07.07-13.54.34:527][509]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482153 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.34:527][509]LogTemp: Warning: The vector value is: X=-193.531 Y=532.504 Z=112.001
+[2022.07.07-13.54.34:725][534]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482153]  Im Hit
+[2022.07.07-13.54.34:756][538]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482151 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.34:757][538]LogTemp: Warning: The vector value is: X=-204.756 Y=533.402 Z=112.001
+[2022.07.07-13.54.34:988][568]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482151]  Im Hit
+[2022.07.07-13.54.35:089][581]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482149 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.35:089][581]LogTemp: Warning: The vector value is: X=-208.802 Y=910.292 Z=112.001
+[2022.07.07-13.54.35:255][602]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482149]  Im Hit
+[2022.07.07-13.54.35:648][652]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482147 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.35:648][652]LogTemp: Warning: The vector value is: X=8.659 Y=1111.948 Z=112.001
+[2022.07.07-13.54.35:742][664]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482147]  Im Hit
+[2022.07.07-13.54.35:940][689]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482145 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.35:940][689]LogTemp: Warning: The vector value is: X=461.615 Y=1113.107 Z=112.001
+[2022.07.07-13.54.36:326][740]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482143 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.36:327][740]LogTemp: Warning: The vector value is: X=414.938 Y=1133.812 Z=112.001
+[2022.07.07-13.54.36:452][756]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482143]  Im Hit
+[2022.07.07-13.54.36:574][771]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482141 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.36:574][771]LogTemp: Warning: The vector value is: X=100.105 Y=1626.330 Z=112.001
+[2022.07.07-13.54.36:911][813]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482139 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.36:911][813]LogTemp: Warning: The vector value is: X=67.831 Y=1663.154 Z=112.001
+[2022.07.07-13.54.37:036][829]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482139]  Im Hit
+[2022.07.07-13.54.37:417][878]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482137 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.37:417][878]LogTemp: Warning: The vector value is: X=628.070 Y=1766.368 Z=112.001
+[2022.07.07-13.54.37:559][896]LogTemp: Warning: I Should be Dead
+[2022.07.07-13.54.37:559][896]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482137]  Im Hit
+[2022.07.07-13.54.37:845][935]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482135 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.37:845][935]LogTemp: Warning: The vector value is: X=540.384 Y=2047.212 Z=112.001
+[2022.07.07-13.54.38:234][987]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482133 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.38:234][987]LogTemp: Warning: The vector value is: X=96.287 Y=2048.745 Z=112.001
+[2022.07.07-13.54.38:668][ 46]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482131 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.38:668][ 46]LogTemp: Warning: The vector value is: X=94.428 Y=2044.892 Z=112.001
+[2022.07.07-13.54.39:296][132]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482131]  Im Hit
+[2022.07.07-13.54.39:747][194]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482129 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.39:747][194]LogTemp: Warning: The vector value is: X=93.930 Y=2048.872 Z=112.001
+[2022.07.07-13.54.40:027][233]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482127 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.40:027][233]LogTemp: Warning: The vector value is: X=93.930 Y=2048.872 Z=112.001
+[2022.07.07-13.54.40:315][273]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482125 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.40:315][273]LogTemp: Warning: The vector value is: X=93.930 Y=2048.872 Z=112.001
+[2022.07.07-13.54.40:371][281]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482129]  Im Hit
+[2022.07.07-13.54.40:574][309]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482123 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.40:574][309]LogTemp: Warning: The vector value is: X=93.930 Y=2048.872 Z=112.001
+[2022.07.07-13.54.40:645][319]LogTemp: Warning: I Should be Dead
+[2022.07.07-13.54.40:645][319]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482127]  Im Hit
+[2022.07.07-13.54.41:673][463]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482121 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.41:674][463]LogTemp: Warning: The vector value is: X=94.018 Y=2048.059 Z=112.001
+[2022.07.07-13.54.41:878][492]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482119 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.41:878][492]LogTemp: Warning: The vector value is: X=94.018 Y=2048.059 Z=112.001
+[2022.07.07-13.54.42:092][522]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482117 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.42:092][522]LogTemp: Warning: The vector value is: X=94.018 Y=2048.059 Z=112.001
+[2022.07.07-13.54.42:299][551]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482115 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.42:300][551]LogTemp: Warning: The vector value is: X=94.018 Y=2048.059 Z=112.001
+[2022.07.07-13.54.42:510][581]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482113 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.42:510][581]LogTemp: Warning: The vector value is: X=94.018 Y=2048.059 Z=112.001
+[2022.07.07-13.54.42:808][623]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482111 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.42:808][623]LogTemp: Warning: The vector value is: X=511.787 Y=1835.087 Z=112.001
+[2022.07.07-13.54.43:095][662]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482109 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.43:096][662]LogTemp: Warning: The vector value is: X=802.028 Y=1080.768 Z=112.001
+[2022.07.07-13.54.43:209][677]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482111]  Im Hit
+[2022.07.07-13.54.44:999][926]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482107 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.44:999][926]LogTemp: Warning: The vector value is: X=1385.809 Y=707.912 Z=112.001
+[2022.07.07-13.54.45:216][955]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482107]  Im Hit
+[2022.07.07-13.54.47:809][298]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482105 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.47:809][298]LogTemp: Warning: The vector value is: X=599.405 Y=1132.625 Z=112.001
+[2022.07.07-13.54.48:254][355]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482105]  Im Hit
+[2022.07.07-13.54.48:278][358]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482103 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.48:278][358]LogTemp: Warning: The vector value is: X=1197.867 Y=1452.783 Z=112.001
+[2022.07.07-13.54.48:813][424]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482103]  Im Hit
+[2022.07.07-13.54.48:853][429]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482101 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.48:853][429]LogTemp: Warning: The vector value is: X=566.228 Y=1577.919 Z=112.001
+[2022.07.07-13.54.49:238][478]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482099 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.49:238][478]LogTemp: Warning: The vector value is: X=559.553 Y=1456.556 Z=112.001
+[2022.07.07-13.54.49:501][511]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482097 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.49:501][511]LogTemp: Warning: The vector value is: X=782.605 Y=1259.747 Z=112.001
+[2022.07.07-13.54.49:575][520]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482097]  Im Hit
+[2022.07.07-13.54.49:734][539]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482095 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.49:734][539]LogTemp: Warning: The vector value is: X=1089.584 Y=1530.780 Z=112.001
+[2022.07.07-13.54.49:943][564]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482095]  Im Hit
+[2022.07.07-13.54.50:000][571]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482093 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.50:001][571]LogTemp: Warning: The vector value is: X=1087.457 Y=1521.104 Z=112.001
+[2022.07.07-13.54.50:221][598]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482091 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.50:221][598]LogTemp: Warning: The vector value is: X=1472.764 Y=1517.114 Z=112.001
+[2022.07.07-13.54.50:460][626]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482089 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.50:460][626]LogTemp: Warning: The vector value is: X=1495.277 Y=1511.606 Z=112.001
+[2022.07.07-13.54.50:725][659]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482087 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.50:725][659]LogTemp: Warning: The vector value is: X=1453.082 Y=1514.651 Z=112.001
+[2022.07.07-13.54.50:787][667]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482089]  Im Hit
+[2022.07.07-13.54.50:813][670]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482087]  Im Hit
+[2022.07.07-13.54.50:994][692]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482085 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.50:994][692]LogTemp: Warning: The vector value is: X=863.940 Y=1526.940 Z=112.001
+[2022.07.07-13.54.51:102][705]LogTemp: Warning: I Should be Dead
+[2022.07.07-13.54.51:102][705]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482085]  Im Hit
+[2022.07.07-13.54.51:242][722]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482083 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.51:242][722]LogTemp: Warning: The vector value is: X=627.718 Y=1529.341 Z=112.001
+[2022.07.07-13.54.51:472][750]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482081 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.51:472][750]LogTemp: Warning: The vector value is: X=514.361 Y=1239.737 Z=112.001
+[2022.07.07-13.54.51:743][783]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482079 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.51:743][783]LogTemp: Warning: The vector value is: X=-94.396 Y=1187.972 Z=112.001
+[2022.07.07-13.54.51:870][799]LogBlueprintUserMessages: [ShooterEnemy_BP63] Collided with Player
+[2022.07.07-13.54.51:886][801]LogBlueprintUserMessages: [ShooterEnemy_BP63] Collided with Player
+[2022.07.07-13.54.51:964][811]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482077 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.51:964][811]LogTemp: Warning: The vector value is: X=-336.429 Y=1224.495 Z=112.001
+[2022.07.07-13.54.52:157][837]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482079]  Im Hit
+[2022.07.07-13.54.52:218][845]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482075 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.52:218][845]LogTemp: Warning: The vector value is: X=131.922 Y=1389.000 Z=112.001
+[2022.07.07-13.54.53:050][958]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147482075]  Im Hit
+[2022.07.07-13.54.54:413][147]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147482073 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.54:413][147]LogTemp: Warning: The vector value is: X=-409.410 Y=2732.450 Z=112.001
+[2022.07.07-13.54.56:739][493]LogNet: Browse: /Game/Maps/Level01?Name=Player?restart
+[2022.07.07-13.54.56:739][493]LogLoad: LoadMap: /Game/Maps/Level01?Name=Player
+[2022.07.07-13.54.56:739][493]LogWorld: BeginTearingDown for /Game/Maps/Level01
+[2022.07.07-13.54.56:739][493]LogWorld: UWorld::CleanupWorld for Level01, bSessionEnded=true, bCleanupResources=true
+[2022.07.07-13.54.56:740][493]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.07-13.54.56:771][493]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.07.07-13.54.56:773][493]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.07.07-13.54.56:775][493]LogStreaming: Display: FlushAsyncLoading: 1 QueuedPackages, 0 AsyncPackages
+[2022.07.07-13.54.56:785][493]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level01'.
+[2022.07.07-13.54.56:786][493]LogAIModule: Creating AISystem for world Level01
+[2022.07.07-13.54.56:786][493]LogLoad: Game class is 'TopDownShooterGameModeBase_BP_C'
+[2022.07.07-13.54.56:788][493]LogWorld: Bringing World /Game/Maps/Level01.Level01 up for play (max tick rate 0) at 2022.07.07-19.24.56
+[2022.07.07-13.54.56:788][493]LogWorld: Bringing up level for play took: 0.001192
+[2022.07.07-13.54.56:789][493]LogActor: Warning: ShooterPlayer_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayer_BP_C_2147481952 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.56:790][493]LogLoad: Took 0.051605 seconds to LoadMap(/Game/Maps/Level01)
+[2022.07.07-13.54.58:288][743]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481948 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.58:288][743]LogTemp: Warning: The vector value is: X=-357.687 Y=25.119 Z=112.001
+[2022.07.07-13.54.58:795][822]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481946 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.58:795][822]LogTemp: Warning: The vector value is: X=-995.394 Y=940.028 Z=112.001
+[2022.07.07-13.54.59:116][870]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481944 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.59:116][870]LogTemp: Warning: The vector value is: X=-1022.720 Y=291.310 Z=112.001
+[2022.07.07-13.54.59:246][890]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481944]  Im Hit
+[2022.07.07-13.54.59:424][917]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481942 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.59:424][917]LogTemp: Warning: The vector value is: X=-1040.827 Y=-176.479 Z=112.001
+[2022.07.07-13.54.59:595][944]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481942]  Im Hit
+[2022.07.07-13.54.59:728][965]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481940 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.54.59:729][965]LogTemp: Warning: The vector value is: X=-1041.318 Y=-183.038 Z=112.001
+[2022.07.07-13.54.59:887][990]LogTemp: Warning: I Should be Dead
+[2022.07.07-13.54.59:887][990]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481940]  Im Hit
+[2022.07.07-13.55.00:173][ 35]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481938 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.00:173][ 35]LogTemp: Warning: The vector value is: X=-809.100 Y=-182.329 Z=112.001
+[2022.07.07-13.55.00:488][ 82]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481936 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.00:488][ 82]LogTemp: Warning: The vector value is: X=-524.721 Y=-282.857 Z=112.001
+[2022.07.07-13.55.02:582][390]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481934 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.02:582][390]LogTemp: Warning: The vector value is: X=-395.064 Y=875.005 Z=112.001
+[2022.07.07-13.55.02:910][437]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481932 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.02:910][437]LogTemp: Warning: The vector value is: X=-427.767 Y=1610.879 Z=112.001
+[2022.07.07-13.55.02:960][444]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481934]  Im Hit
+[2022.07.07-13.55.03:108][466]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481932]  Im Hit
+[2022.07.07-13.55.03:243][486]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481930 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.03:244][486]LogTemp: Warning: The vector value is: X=-467.519 Y=1637.950 Z=112.001
+[2022.07.07-13.55.03:513][526]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481928 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.03:513][526]LogTemp: Warning: The vector value is: X=-1150.855 Y=1636.432 Z=112.001
+[2022.07.07-13.55.03:596][538]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481930]  Im Hit
+[2022.07.07-13.55.03:802][567]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481926 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.03:802][567]LogTemp: Warning: The vector value is: X=-1660.517 Y=1644.738 Z=112.001
+[2022.07.07-13.55.03:836][572]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481928]  Im Hit
+[2022.07.07-13.55.04:073][607]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481924 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.04:073][607]LogTemp: Warning: The vector value is: X=-1642.686 Y=1669.139 Z=112.001
+[2022.07.07-13.55.04:248][632]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481926]  Im Hit
+[2022.07.07-13.55.04:347][646]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481922 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.04:347][646]LogTemp: Warning: The vector value is: X=-2052.710 Y=1980.522 Z=112.001
+[2022.07.07-13.55.04:826][715]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481924]  Im Hit
+[2022.07.07-13.55.04:834][716]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481920 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.04:834][716]LogTemp: Warning: The vector value is: X=-2486.391 Y=2098.118 Z=112.001
+[2022.07.07-13.55.04:932][730]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481922]  Im Hit
+[2022.07.07-13.55.05:480][810]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481918 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.05:480][810]LogTemp: Warning: The vector value is: X=-2597.467 Y=3179.801 Z=112.001
+[2022.07.07-13.55.05:880][871]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481918]  Im Hit
+[2022.07.07-13.55.05:982][886]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481916 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.05:982][886]LogTemp: Warning: The vector value is: X=-2598.272 Y=3305.851 Z=112.001
+[2022.07.07-13.55.06:216][921]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481914 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.06:217][921]LogTemp: Warning: The vector value is: X=-2598.770 Y=3956.719 Z=112.001
+[2022.07.07-13.55.06:394][948]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481912 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.06:394][948]LogTemp: Warning: The vector value is: X=-2597.574 Y=4094.138 Z=112.001
+[2022.07.07-13.55.06:646][987]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481910 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.06:647][987]LogTemp: Warning: The vector value is: X=-2759.483 Y=4104.359 Z=112.001
+[2022.07.07-13.55.06:706][996]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481916]  Im Hit
+[2022.07.07-13.55.06:928][ 30]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481908 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.06:928][ 30]LogTemp: Warning: The vector value is: X=-3433.406 Y=4103.828 Z=112.001
+[2022.07.07-13.55.06:996][ 40]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481914]  Im Hit
+[2022.07.07-13.55.07:023][ 44]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481912]  Im Hit
+[2022.07.07-13.55.07:118][ 59]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481908]  Im Hit
+[2022.07.07-13.55.07:195][ 71]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481906 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.07:195][ 71]LogTemp: Warning: The vector value is: X=-3474.265 Y=4103.203 Z=112.001
+[2022.07.07-13.55.07:265][ 82]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481910]  Im Hit
+[2022.07.07-13.55.07:375][ 99]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481906]  Im Hit
+[2022.07.07-13.55.07:400][103]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481904 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.07:400][103]LogTemp: Warning: The vector value is: X=-3474.896 Y=4103.193 Z=112.001
+[2022.07.07-13.55.07:580][131]LogTemp: Warning: I Should be Dead
+[2022.07.07-13.55.07:580][131]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481904]  Im Hit
+[2022.07.07-13.55.07:618][137]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481902 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.07:619][137]LogTemp: Warning: The vector value is: X=-3474.918 Y=4103.193 Z=112.001
+[2022.07.07-13.55.07:858][174]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481900 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.07:858][174]LogTemp: Warning: The vector value is: X=-3956.656 Y=4105.473 Z=112.001
+[2022.07.07-13.55.08:086][208]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481898 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.08:086][208]LogTemp: Warning: The vector value is: X=-4234.304 Y=4104.247 Z=112.001
+[2022.07.07-13.55.08:252][233]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481898]  Im Hit
+[2022.07.07-13.55.08:319][243]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481896 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.08:319][243]LogTemp: Warning: The vector value is: X=-4726.356 Y=4104.538 Z=112.001
+[2022.07.07-13.55.08:358][249]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481902]  Im Hit
+[2022.07.07-13.55.08:528][275]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481900]  Im Hit
+[2022.07.07-13.55.08:588][284]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481894 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.08:588][284]LogTemp: Warning: The vector value is: X=-4778.434 Y=3884.473 Z=112.001
+[2022.07.07-13.55.08:594][285]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481896]  Im Hit
+[2022.07.07-13.55.08:830][320]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481892 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.08:831][320]LogTemp: Warning: The vector value is: X=-4780.567 Y=3505.248 Z=112.001
+[2022.07.07-13.55.09:100][359]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481890 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.09:100][359]LogTemp: Warning: The vector value is: X=-4221.946 Y=3491.522 Z=112.001
+[2022.07.07-13.55.09:155][367]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481890]  Im Hit
+[2022.07.07-13.55.09:316][390]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481888 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.09:316][390]LogTemp: Warning: The vector value is: X=-3933.543 Y=3492.333 Z=112.001
+[2022.07.07-13.55.09:534][422]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481886 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.09:534][422]LogTemp: Warning: The vector value is: X=-3922.060 Y=3492.508 Z=112.001
+[2022.07.07-13.55.09:555][425]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481888]  Im Hit
+[2022.07.07-13.55.09:759][454]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481884 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.09:759][454]LogTemp: Warning: The vector value is: X=-4104.294 Y=3494.119 Z=112.001
+[2022.07.07-13.55.09:780][457]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481886]  Im Hit
+[2022.07.07-13.55.09:979][485]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481882 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.09:979][485]LogTemp: Warning: The vector value is: X=-4600.362 Y=3493.416 Z=112.001
+[2022.07.07-13.55.09:999][488]LogTemp: Warning: I Should be Dead
+[2022.07.07-13.55.09:999][488]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481884]  Im Hit
+[2022.07.07-13.55.10:245][524]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481880 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.10:245][524]LogTemp: Warning: The vector value is: X=-4653.883 Y=3990.006 Z=112.001
+[2022.07.07-13.55.10:622][580]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481878 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.10:622][580]LogTemp: Warning: The vector value is: X=-5131.717 Y=4045.004 Z=112.001
+[2022.07.07-13.55.10:708][593]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481882]  Im Hit
+[2022.07.07-13.55.10:883][623]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481876 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.10:883][623]LogTemp: Warning: The vector value is: X=-5854.664 Y=4070.283 Z=112.001
+[2022.07.07-13.55.11:115][666]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481876]  Im Hit
+[2022.07.07-13.55.11:127][668]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481874 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.11:127][668]LogTemp: Warning: The vector value is: X=-5914.501 Y=4098.666 Z=112.001
+[2022.07.07-13.55.11:233][688]LogTemp: Warning: I Should be Dead
+[2022.07.07-13.55.11:233][688]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481878]  Im Hit
+[2022.07.07-13.55.11:294][699]LogTemp: Warning: I Should be Dead
+[2022.07.07-13.55.11:294][699]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481874]  Im Hit
+[2022.07.07-13.55.11:397][716]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481872 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.11:397][716]LogTemp: Warning: The vector value is: X=-5925.696 Y=3644.846 Z=112.001
+[2022.07.07-13.55.11:983][820]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481870 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.11:983][820]LogTemp: Warning: The vector value is: X=-5412.039 Y=3073.895 Z=112.001
+[2022.07.07-13.55.12:246][862]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481868 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.12:247][862]LogTemp: Warning: The vector value is: X=-4788.442 Y=3051.781 Z=112.001
+[2022.07.07-13.55.12:560][909]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481866 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.12:560][909]LogTemp: Warning: The vector value is: X=-4763.693 Y=2486.440 Z=112.001
+[2022.07.07-13.55.12:674][926]LogTemp: Warning: I Should be Dead
+[2022.07.07-13.55.12:674][926]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481866]  Im Hit
+[2022.07.07-13.55.12:858][954]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481864 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.12:858][954]LogTemp: Warning: The vector value is: X=-4783.867 Y=1875.763 Z=112.001
+[2022.07.07-13.55.13:220][  8]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481862 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.13:220][  8]LogTemp: Warning: The vector value is: X=-4780.440 Y=1141.292 Z=112.001
+[2022.07.07-13.55.13:566][ 57]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481860 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.13:566][ 57]LogTemp: Warning: The vector value is: X=-3962.099 Y=1208.144 Z=112.001
+[2022.07.07-13.55.13:573][ 58]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481862]  Im Hit
+[2022.07.07-13.55.13:882][100]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481858 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.13:883][100]LogTemp: Warning: The vector value is: X=-3861.601 Y=1688.578 Z=112.001
+[2022.07.07-13.55.13:938][108]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481860]  Im Hit
+[2022.07.07-13.55.14:385][172]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481856 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.14:385][172]LogTemp: Warning: The vector value is: X=-4675.449 Y=1843.207 Z=112.001
+[2022.07.07-13.55.14:500][189]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481858]  Im Hit
+[2022.07.07-13.55.14:514][191]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481856]  Im Hit
+[2022.07.07-13.55.14:650][211]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481854 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.14:650][211]LogTemp: Warning: The vector value is: X=-4843.496 Y=1833.251 Z=112.001
+[2022.07.07-13.55.14:786][232]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481854]  Im Hit
+[2022.07.07-13.55.14:999][264]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481852 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.14:999][264]LogTemp: Warning: The vector value is: X=-4932.860 Y=2296.465 Z=112.001
+[2022.07.07-13.55.15:135][285]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481852]  Im Hit
+[2022.07.07-13.55.15:422][330]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481850 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.15:422][330]LogTemp: Warning: The vector value is: X=-4929.718 Y=2316.089 Z=112.001
+[2022.07.07-13.55.15:547][350]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481850]  Im Hit
+[2022.07.07-13.55.15:870][401]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481848 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.15:870][401]LogTemp: Warning: The vector value is: X=-4928.615 Y=2316.226 Z=112.001
+[2022.07.07-13.55.15:982][419]LogTemp: Warning: I Should be Dead
+[2022.07.07-13.55.15:982][419]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481848]  Im Hit
+[2022.07.07-13.55.16:139][448]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481846 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.16:139][448]LogTemp: Warning: The vector value is: X=-4927.553 Y=2316.345 Z=112.001
+[2022.07.07-13.55.27:794][449]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481844 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.27:794][449]LogTemp: Warning: The vector value is: X=-3984.394 Y=1275.110 Z=112.001
+[2022.07.07-13.55.28:225][510]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481842 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.28:225][510]LogTemp: Warning: The vector value is: X=-3875.538 Y=1613.034 Z=112.001
+[2022.07.07-13.55.28:531][552]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481840 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.28:531][552]LogTemp: Warning: The vector value is: X=-4145.620 Y=2149.167 Z=112.001
+[2022.07.07-13.55.28:559][556]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481840]  Im Hit
+[2022.07.07-13.55.29:248][660]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481838 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.29:248][660]LogTemp: Warning: The vector value is: X=-5561.110 Y=1340.805 Z=112.001
+[2022.07.07-13.55.30:136][813]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481836 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.30:136][813]LogTemp: Warning: The vector value is: X=-5755.934 Y=2550.321 Z=112.001
+[2022.07.07-13.55.30:485][877]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481836]  Im Hit
+[2022.07.07-13.55.31:048][965]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481834 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.31:048][965]LogTemp: Warning: The vector value is: X=-5168.366 Y=2496.488 Z=112.001
+[2022.07.07-13.55.31:135][979]LogTemp: Warning: I Should be Dead
+[2022.07.07-13.55.31:135][979]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481834]  Im Hit
+[2022.07.07-13.55.34:002][475]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481832 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.34:002][475]LogTemp: Warning: The vector value is: X=-4156.904 Y=2314.990 Z=112.001
+[2022.07.07-13.55.34:441][537]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481830 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.34:441][537]LogTemp: Warning: The vector value is: X=-4143.581 Y=1953.010 Z=112.001
+[2022.07.07-13.55.34:768][584]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481828 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.34:768][584]LogTemp: Warning: The vector value is: X=-4142.403 Y=1953.950 Z=112.001
+[2022.07.07-13.55.34:817][591]LogTemp: Warning: I Should be Dead
+[2022.07.07-13.55.34:817][591]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481832]  Im Hit
+[2022.07.07-13.55.35:794][734]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481826 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.35:794][734]LogTemp: Warning: The vector value is: X=-4825.344 Y=1319.416 Z=112.001
+[2022.07.07-13.55.35:877][747]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481826]  Im Hit
+[2022.07.07-13.55.36:067][776]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481824 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.36:068][776]LogTemp: Warning: The vector value is: X=-4825.701 Y=1316.214 Z=112.001
+[2022.07.07-13.55.36:146][788]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481824]  Im Hit
+[2022.07.07-13.55.36:347][818]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481822 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.36:347][818]LogTemp: Warning: The vector value is: X=-4826.896 Y=878.865 Z=112.001
+[2022.07.07-13.55.36:546][848]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481822]  Im Hit
+[2022.07.07-13.55.36:618][859]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481820 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.36:618][859]LogTemp: Warning: The vector value is: X=-4842.934 Y=892.939 Z=112.001
+[2022.07.07-13.55.36:716][874]LogTemp: Warning: I Should be Dead
+[2022.07.07-13.55.36:717][874]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481820]  Im Hit
+[2022.07.07-13.55.36:864][897]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481818 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.36:864][897]LogTemp: Warning: The vector value is: X=-4854.032 Y=905.418 Z=112.001
+[2022.07.07-13.55.37:257][958]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481816 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.37:257][958]LogTemp: Warning: The vector value is: X=-4696.657 Y=915.874 Z=112.001
+[2022.07.07-13.55.37:502][995]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481814 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.37:502][995]LogTemp: Warning: The vector value is: X=-3992.802 Y=917.212 Z=112.001
+[2022.07.07-13.55.37:507][996]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481816]  Im Hit
+[2022.07.07-13.55.37:862][ 42]LogBlueprintUserMessages: [ShooterEnemy_BP63] Collided with Player
+[2022.07.07-13.55.37:930][ 51]LogBlueprintUserMessages: [ShooterEnemy_BP63] Collided with Player
+[2022.07.07-13.55.37:937][ 52]LogBlueprintUserMessages: [ShooterEnemy_BP63] Collided with Player
+[2022.07.07-13.55.38:169][ 84]LogActor: Warning: ShooterPlayerProjectile_BP_C /Game/Maps/Level01.Level01:PersistentLevel.ShooterPlayerProjectile_BP_C_2147481812 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.07.07-13.55.38:169][ 84]LogTemp: Warning: The vector value is: X=-3973.352 Y=1281.015 Z=112.001
+[2022.07.07-13.55.38:535][139]LogBlueprintUserMessages: [ShooterPlayerProjectile_BP_C_2147481812]  Im Hit
+[2022.07.07-13.55.43:089][909]Closing by request
+[2022.07.07-13.55.43:089][909]LogWindows: FPlatformMisc::RequestExit(0)
+[2022.07.07-13.55.43:089][909]LogCore: Engine exit requested (reason: Win RequestExit)
+[2022.07.07-13.55.43:094][910]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.07.07-13.55.43:108][910]LogInit: Display: PreExit Game.
+[2022.07.07-13.55.43:115][910]LogWorld: BeginTearingDown for /Game/Maps/Level01
+[2022.07.07-13.55.43:115][910]LogWorld: UWorld::CleanupWorld for Level01, bSessionEnded=true, bCleanupResources=true
+[2022.07.07-13.55.43:116][910]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.07-13.55.43:210][910]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.07.07-13.55.43:210][910]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.07.07-13.55.43:210][910]LogAudio: Display: Audio Device unregistered from world 'Level01'.
+[2022.07.07-13.55.43:211][910]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.07.07-13.55.43:211][910]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.07.07-13.55.43:216][910]LogAudio: Display: Audio Device Manager Shutdown
+[2022.07.07-13.55.43:216][910]LogSlate: Request Window 'TopDownShooter (64-bit Development PCD3D_SM5) ' being destroyed
+[2022.07.07-13.55.43:220][910]LogSlate: Window 'TopDownShooter (64-bit Development PCD3D_SM5) ' being destroyed
+[2022.07.07-13.55.43:221][910]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.07.07-13.55.43:230][910]LogExit: Preparing to exit.
+[2022.07.07-13.55.43:230][910]LogMoviePlayer: Shutting down movie player
+[2022.07.07-13.55.43:232][910]LogDeviceProfile: Device profile begin destroy: [0000024FEAFD1B40] Windows
+[2022.07.07-13.55.43:233][910]LogDeviceProfile: Device profile begin destroy: [0000024FEAFD1F00] Default__DeviceProfile
+[2022.07.07-13.55.43:233][910]LogDeviceProfile: Device profile begin destroy: [0000024FEAFD1C00] WindowsNoEditor
+[2022.07.07-13.55.43:238][910]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.07-13.55.43:250][910]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.07.07-13.55.43:252][910]LogExit: Game engine shut down
+[2022.07.07-13.55.43:280][910]LogExit: Object subsystem successfully closed.
+[2022.07.07-13.55.43:301][910]LogModuleManager: Shutting down and abandoning module AutomationController (330)
+[2022.07.07-13.55.43:302][910]LogModuleManager: Shutting down and abandoning module AutomationWorker (328)
+[2022.07.07-13.55.43:302][910]LogModuleManager: Shutting down and abandoning module Voice (326)
+[2022.07.07-13.55.43:302][910]LogModuleManager: Shutting down and abandoning module AIModule (324)
+[2022.07.07-13.55.43:302][910]LogModuleManager: Shutting down and abandoning module GameplayDebugger (323)
+[2022.07.07-13.55.43:302][910]LogModuleManager: Shutting down and abandoning module NavigationSystem (321)
+[2022.07.07-13.55.43:302][910]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (318)
+[2022.07.07-13.55.43:302][910]LogModuleManager: Shutting down and abandoning module WebMMedia (316)
+[2022.07.07-13.55.43:302][910]LogModuleManager: Shutting down and abandoning module OculusMR (314)
+[2022.07.07-13.55.43:302][910]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (312)
+[2022.07.07-13.55.43:302][910]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (310)
+[2022.07.07-13.55.43:302][910]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (308)
+[2022.07.07-13.55.43:302][910]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (306)
+[2022.07.07-13.55.43:302][910]LogModuleManager: Shutting down and abandoning module CharacterAI (304)
+[2022.07.07-13.55.43:302][910]LogModuleManager: Shutting down and abandoning module PlanarCut (302)
+[2022.07.07-13.55.43:302][910]LogModuleManager: Shutting down and abandoning module SessionServices (300)
+[2022.07.07-13.55.43:302][910]LogModuleManager: Shutting down and abandoning module LiveCoding (298)
+[2022.07.07-13.55.43:302][910]LogModuleManager: Shutting down and abandoning module LevelSequence (296)
+[2022.07.07-13.55.43:302][910]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (294)
+[2022.07.07-13.55.43:302][910]LogModuleManager: Shutting down and abandoning module MovieScene (292)
+[2022.07.07-13.55.43:302][910]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (290)
+[2022.07.07-13.55.43:302][910]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (288)
+[2022.07.07-13.55.43:302][910]LogModuleManager: Shutting down and abandoning module AudioMixerCore (287)
+[2022.07.07-13.55.43:302][910]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (284)
+[2022.07.07-13.55.43:302][910]LogModuleManager: Shutting down and abandoning module ProfilerService (282)
+[2022.07.07-13.55.43:386][910]LogModuleManager: Shutting down and abandoning module TaskGraph (280)
+[2022.07.07-13.55.43:386][910]LogModuleManager: Shutting down and abandoning module Synthesis (278)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module OculusInput (276)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (274)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module GooglePAD (272)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (270)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module CableComponent (268)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module AudioCapture (266)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (265)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module AssetTags (262)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (260)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module AppleImageUtils (258)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module AndroidPermission (256)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (254)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module TemplateSequence (252)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module MediaCompositing (250)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module ImgMedia (248)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (246)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (244)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (242)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (240)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (238)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module MotoSynth (236)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module ChaosNiagara (234)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (232)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (230)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module EditableMesh (228)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module MeshConversion (226)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module DynamicMesh (224)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (222)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module GeometricObjects (220)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module BackChannel (218)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module AutomationUtils (216)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (214)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module GeometryCache (212)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module UObjectPlugin (210)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module TopDownShooter (208)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (206)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (204)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module SoundFields (202)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (200)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (196)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module ActorSequence (194)
+[2022.07.07-13.55.43:387][910]LogModuleManager: Shutting down and abandoning module UdpMessaging (192)
+[2022.07.07-13.55.43:388][910]LogModuleManager: Shutting down and abandoning module TcpMessaging (190)
+[2022.07.07-13.55.43:388][910]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (188)
+[2022.07.07-13.55.43:388][910]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (186)
+[2022.07.07-13.55.43:388][910]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (184)
+[2022.07.07-13.55.43:388][910]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (182)
+[2022.07.07-13.55.43:388][910]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (180)
+[2022.07.07-13.55.43:388][910]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (178)
+[2022.07.07-13.55.43:388][910]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (176)
+[2022.07.07-13.55.43:388][910]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (174)
+[2022.07.07-13.55.43:388][910]LogModuleManager: Shutting down and abandoning module MagicLeapController (172)
+[2022.07.07-13.55.43:388][910]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.07.07-13.55.43:388][910]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (170)
+[2022.07.07-13.55.43:388][910]LogModuleManager: Shutting down and abandoning module MagicLeapAR (168)
+[2022.07.07-13.55.43:388][910]LogModuleManager: Shutting down and abandoning module AugmentedReality (167)
+[2022.07.07-13.55.43:388][910]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (164)
+[2022.07.07-13.55.43:388][910]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (162)
+[2022.07.07-13.55.43:388][910]LogModuleManager: Shutting down and abandoning module Niagara (160)
+[2022.07.07-13.55.43:388][910]LogModuleManager: Shutting down and abandoning module SignalProcessing (159)
+[2022.07.07-13.55.43:388][910]LogModuleManager: Shutting down and abandoning module NiagaraCore (156)
+[2022.07.07-13.55.43:388][910]LogModuleManager: Shutting down and abandoning module FacialAnimation (154)
+[2022.07.07-13.55.43:388][910]LogModuleManager: Shutting down and abandoning module SignificanceManager (152)
+[2022.07.07-13.55.43:388][910]LogModuleManager: Shutting down and abandoning module AnimationSharing (150)
+[2022.07.07-13.55.43:389][910]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (148)
+[2022.07.07-13.55.43:389][910]LogModuleManager: Shutting down and abandoning module Paper2D (146)
+[2022.07.07-13.55.43:389][910]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (144)
+[2022.07.07-13.55.43:389][910]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (142)
+[2022.07.07-13.55.43:389][910]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (140)
+[2022.07.07-13.55.43:389][910]LogModuleManager: Shutting down and abandoning module PacketHandler (138)
+[2022.07.07-13.55.43:389][910]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (136)
+[2022.07.07-13.55.43:390][910]LogModuleManager: Shutting down and abandoning module MediaAssets (134)
+[2022.07.07-13.55.43:390][910]LogModuleManager: Shutting down and abandoning module Overlay (132)
+[2022.07.07-13.55.43:390][910]LogModuleManager: Shutting down and abandoning module FunctionalTesting (130)
+[2022.07.07-13.55.43:390][910]LogModuleManager: Shutting down and abandoning module MessageLog (128)
+[2022.07.07-13.55.43:391][910]LogModuleManager: Shutting down and abandoning module UMG (126)
+[2022.07.07-13.55.43:391][910]LogModuleManager: Shutting down and abandoning module SlateReflector (124)
+[2022.07.07-13.55.43:391][910]LogModuleManager: Shutting down and abandoning module Slate (122)
+[2022.07.07-13.55.43:391][910]LogModuleManager: Shutting down and abandoning module SlateCore (120)
+[2022.07.07-13.55.43:392][910]LogModuleManager: Shutting down and abandoning module MRMesh (118)
+[2022.07.07-13.55.43:392][910]LogModuleManager: Shutting down and abandoning module Messaging (116)
+[2022.07.07-13.55.43:392][910]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (114)
+[2022.07.07-13.55.43:392][910]LogModuleManager: Shutting down and abandoning module XAudio2 (112)
+[2022.07.07-13.55.43:392][910]LogModuleManager: Shutting down and abandoning module Networking (110)
+[2022.07.07-13.55.43:392][910]LogModuleManager: Shutting down and abandoning module Core (108)
+[2022.07.07-13.55.43:393][910]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (106)
+[2022.07.07-13.55.43:393][910]LogModuleManager: Shutting down and abandoning module ImageWrapper (102)
+[2022.07.07-13.55.43:393][910]LogModuleManager: Shutting down and abandoning module InputCore (100)
+[2022.07.07-13.55.43:393][910]LogModuleManager: Shutting down and abandoning module Settings (98)
+[2022.07.07-13.55.43:393][910]LogModuleManager: Shutting down and abandoning module PhysXCooking (96)
+[2022.07.07-13.55.43:393][910]LogModuleManager: Shutting down and abandoning module Chaos (94)
+[2022.07.07-13.55.43:393][910]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (92)
+[2022.07.07-13.55.43:393][910]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (91)
+[2022.07.07-13.55.43:393][910]LogModuleManager: Shutting down and abandoning module AVEncoder (90)
+[2022.07.07-13.55.43:393][910]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (86)
+[2022.07.07-13.55.43:393][910]LogModuleManager: Shutting down and abandoning module SteamVRInput (84)
+[2022.07.07-13.55.43:393][910]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2022.07.07-13.55.43:393][910]LogHMD: Freeing OpenVRDLLHandle.
+[2022.07.07-13.55.43:393][910]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2022.07.07-13.55.43:393][910]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2022.07.07-13.55.43:393][910]LogModuleManager: Shutting down and abandoning module ChunkDownloader (76)
+[2022.07.07-13.55.43:393][910]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2022.07.07-13.55.43:393][910]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2022.07.07-13.55.43:394][910]LogModuleManager: Shutting down and abandoning module HTTP (65)
+[2022.07.07-13.55.43:394][910]LogHttp: Display: cleaning up 0 outstanding Http requests.
+[2022.07.07-13.55.43:399][910]LogModuleManager: Shutting down and abandoning module SSL (64)
+[2022.07.07-13.55.43:399][910]LogModuleManager: Shutting down and abandoning module WmfMedia (60)
+[2022.07.07-13.55.43:400][910]LogModuleManager: Shutting down and abandoning module Media (59)
+[2022.07.07-13.55.43:400][910]LogModuleManager: Shutting down and abandoning module MediaInfo (58)
+[2022.07.07-13.55.43:400][910]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (54)
+[2022.07.07-13.55.43:400][910]LogModuleManager: Shutting down and abandoning module MLSDK (52)
+[2022.07.07-13.55.43:400][910]LogModuleManager: Shutting down and abandoning module MagicLeap (50)
+[2022.07.07-13.55.43:400][910]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (48)
+[2022.07.07-13.55.43:400][910]LogModuleManager: Shutting down and abandoning module NiagaraShader (46)
+[2022.07.07-13.55.43:400][910]LogModuleManager: Shutting down and abandoning module ChaosCloth (44)
+[2022.07.07-13.55.43:400][910]LogModuleManager: Shutting down and abandoning module VariantManagerContent (42)
+[2022.07.07-13.55.43:400][910]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2022.07.07-13.55.43:400][910]LogModuleManager: Shutting down and abandoning module AISupportModule (38)
+[2022.07.07-13.55.43:400][910]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (36)
+[2022.07.07-13.55.43:400][910]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (34)
+[2022.07.07-13.55.43:400][910]LogModuleManager: Shutting down and abandoning module PlatformCrypto (32)
+[2022.07.07-13.55.43:400][910]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2022.07.07-13.55.43:400][910]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2022.07.07-13.55.43:400][910]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2022.07.07-13.55.43:401][910]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2022.07.07-13.55.43:401][910]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2022.07.07-13.55.43:401][910]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2022.07.07-13.55.43:401][910]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2022.07.07-13.55.43:401][910]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2022.07.07-13.55.43:401][910]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2022.07.07-13.55.43:401][910]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2022.07.07-13.55.43:401][910]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2022.07.07-13.55.43:401][910]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2022.07.07-13.55.43:401][910]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2022.07.07-13.55.43:401][910]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2022.07.07-13.55.43:401][910]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2022.07.07-13.55.43:401][910]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2022.07.07-13.55.43:402][910]LogD3D11RHI: Shutdown
+[2022.07.07-13.55.43:402][910]LogD3D11RHI: CleanupD3DDevice
+[2022.07.07-13.55.43:410][910]LogExit: Exiting.
+[2022.07.07-13.55.43:421][910]Log file closed, 07/07/22 19:25:43
