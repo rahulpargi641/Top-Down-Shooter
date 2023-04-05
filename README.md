@@ -6,5 +6,5 @@ This is a top-down shooter game where the player's goal is to destroy as many en
 
 Implmentation:
     
-    1. Implemented player movement, shooting mechanics, and enemy AI behavior and spawn systems.
-    2. Created a turret with 180-degree rotation and implemented player control for shooting orbs at enemies.
+1. Implemented player movement, shooting mechanics, and enemy AI behavior and spawn systems.
+2. Created a turret with 180-degree rotation and implemented player control for shooting orbs at enemies.
